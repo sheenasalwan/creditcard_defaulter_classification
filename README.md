@@ -24,14 +24,14 @@ Classification problem to predict the credit card holder defaulter behaviour
   - make pipeline
   - column tranformer
   
-### Baseline Model
+#### Baseline Model
   - Dummy Classifier
   
-### Linear Models
+#### Linear Models
   - LogisticRegression, with class weights, SMOTE
   - pick one and perform Hyperparameter Optimization
   
-7. Different Classifiers
+#### Different Classifiers
   - Try different models
     - SVM
     Tree based models:
@@ -40,17 +40,20 @@ Classification problem to predict the credit card holder defaulter behaviour
     - LGBM
   - check for overfitting, underfitting
   - pick best models for further hyperparameter optimization
-8. Feature Selection
+  
+#### Feature Selection
   - Recursive feature elimination 
-9. Hyperparamter Optimization
+  
+#### Hyperparamter Optimization
   - GridSearchCV/RamdomSearchCV
   - Check fit time, train and validation scores
   - pick the best estimator
-10. Interpretation and feature importance
+  
+#### Interpretation and feature importance
   - feature_importance_
   - eli5
   - SHAP
-11. Results on test set
+#### Results on test set
   - check results with best estimator
   - check consistency with validation scores
   - check for optimization bias
