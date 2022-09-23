@@ -1,21 +1,24 @@
 # Credit Card Defaulter Classification
 Classification problem to predict the credit card holder defaulter behaviour
 
-### Pipeline followed:
-1. Understanding the Problem
-  - goal of the problem
-  - identifying the target variable
-  - size of dataset
-  - type of features
-  - identify type of problem - classification/regression
-  - identify type of classification - binary/multi-class
-2. Data Splitting
-  - train test split
-3. Exploratory Data Analysis (EDA)
-  - check summary statistics(data type of features, min/max values)
-  - check for missing values
-  - check for colinearility, scaling, data outliers via visualization
-  - check for class imbalance and identify the metrics for assessment
+## Pipeline followed:
+  ### Understanding the Problem:
+        - goal of the problem
+        - identifying the target variable
+        - size of dataset
+        - type of features
+        - identify type of problem - classification/regression
+        - identify type of classification - binary/multi-class
+        
+  ### Data Splitting
+        - train test split
+        
+  ### Exploratory Data Analysis (EDA)
+        - check summary statistics(data type of features, min/max values)
+        - check for missing values
+        - check for colinearility, scaling, data outliers via visualization
+        - check for class imbalance and identify the metrics for assessment
+        
 4. Preprocessing and transformations
   - one-hot encoding, scaling, ordinal, binary
   - make pipeline
