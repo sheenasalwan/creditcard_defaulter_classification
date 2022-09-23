@@ -1,4 +1,4 @@
-# creditcard_defaulter_classification
+# Credit Card Defaulter Classification
 Classification problem to predict the credit card holder defaulter behaviour
 
 ### Pipeline followed:
